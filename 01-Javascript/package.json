@@ -1,0 +1,11 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "estudo front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geovani",
+  "license": "ISC"
+}
