@@ -1,5 +1,6 @@
 export class ContaCorrente {
-
+    
+    cliente;
     agencia;
     saldo;
 
