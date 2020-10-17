@@ -25,7 +25,7 @@ contaCorrenteJuliana.cliente = clienteJuliana;
 contaCorrenteJuliana.agencia = 1001;
 contaCorrenteJuliana.saldo = 0;
 
-console.log(contaCorrenteJuliana);
+console.log(contaCorrenteJuliana.cliente);
 
 contaCorrente.transferir(10, contaCorrenteJuliana);
 
