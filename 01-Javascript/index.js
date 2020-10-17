@@ -1,5 +1,7 @@
 import { Cliente } from "./classes/Cliente.js"
 import { ContaCorrente } from "./classes/ContaCorrente.js"
+import { UsuarioInterno } from "./classes/UsuarioInterno.js"
+import { Autenticar } from "./classes/Autenticar.js"
 
 
 const contaCorrente = new ContaCorrente();
@@ -27,3 +29,11 @@ contaCorrente.transferir(10, contaCorrenteJuliana);
 
 console.log(contaCorrenteJuliana);
 console.log(contaCorrente);
+
+const usuarioInterno = new UsuarioInterno();
+usuarioInterno.cpf = "213";
+
+const authGeovani = Autenticar.login(clienteGeovani);
+const authUsuarioInterno = Autenticar.login(usuarioInterno);
+
+console.log(authGeovani, authUsuarioInterno);

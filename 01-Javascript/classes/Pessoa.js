@@ -6,4 +6,12 @@ export class Pessoa{
     }
     _nome;
     _cpf
+
+    get cpf(){
+        return this._cpf;
+    }
+
+    autenticar(cpf){
+        return cpf == this._cpf
+    }
 }
