@@ -3,8 +3,7 @@ import { ContaCorrente } from "./classes/ContaCorrente.js"
 
 
 const contaCorrente = new ContaCorrente();
-const clienteGeovani = new Cliente("11122233309");
-clienteGeovani.nome = "Geovani";
+const clienteGeovani = new Cliente("Geovani","11122233309");
 contaCorrente.cliente = clienteGeovani;
 contaCorrente.agencia = 1001;
 contaCorrente.saldo = 0;
@@ -17,8 +16,7 @@ console.log("Saldo ==> " + contaCorrente.depositar(5));
 
 
 const contaCorrenteJuliana = new ContaCorrente();
-const clienteJuliana = new Cliente("00022233309");
-clienteJuliana.nome = "Juliana";
+const clienteJuliana = new Cliente("Nome","00022233309");
 contaCorrenteJuliana.cliente = clienteJuliana;
 contaCorrenteJuliana.agencia = 1001;
 contaCorrenteJuliana.saldo = 0;

@@ -1,8 +1,8 @@
-export class Cliente {
+import { Pessoa } from "./Pessoa.js"
+export class Cliente extends Pessoa{
 
-    constructor(cpf){
-        this._cpf = cpf;
-    }
-    nome;
-    _cpf;
+    // constructor(nome, cpf){
+    //     super(nome, cpf);
+    // }
+
 }
