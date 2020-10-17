@@ -1,6 +1,10 @@
 export class ContaCorrente {
     
-    cliente;
+    _cliente;
+    
+    set cliente(value){
+        this._cliente = value;
+    }
     agencia;
     saldo;
 
